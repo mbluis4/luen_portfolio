@@ -18,7 +18,7 @@ const Navbar = () => {
       md:grid md:grid-cols-2 md:items-center"
       >
         <div className="flex justify-between">
-          <h2>Logo</h2>
+          <h2 className="">DevLuen</h2>
           <button className="md:hidden" onClick={showLinks}>
             <RiMenuFill />
           </button>
