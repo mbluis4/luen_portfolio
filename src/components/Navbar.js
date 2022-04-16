@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav
       className="absolute top-0 left-0 w-full h-20 
-    flex items-center z-50 bg-slate-50"
+    flex items-center z-50 bg-slate-50 shadow-md"
     >
       <div
         className="w-ninety max-w-7xl my-0 mx-auto 
