@@ -9,7 +9,7 @@ const projectData = [
     description: "site for glycerin soaps",
     url: "https://glicerina.netlify.app/",
     github: "",
-    tags: ["React", "Tailwind", "Firebase"],
+    tags: ["React", "TailwindCss", "Firebase"],
     img: glycerin,
   },
   {
