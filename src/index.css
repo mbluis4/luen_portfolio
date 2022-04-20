@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 *,
 ::after,
 ::before {
@@ -34,4 +36,14 @@ body {
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
+}
+
+.contact {
+  min-height: calc(100vh - 5rem - 9rem);
+}
+
+.my-services {
+  background-image: url('./img/services-bg.jpg');
+  object-fit: cover;
+  max-width: 100%;
 }

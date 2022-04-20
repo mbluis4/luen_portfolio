@@ -26,7 +26,13 @@ const Sidebar = ({ openSidebar, toggleSidebar }) => {
       </div>
       <div className="flex space-x-4 text-2xl">
         {socialLinks.map((social) => (
-          <a href={social.url} target="_blank" key={social.id}>
+          <a
+            href={social.url}
+            target="_blank"
+            rel="noreferrer"
+            key={social.id}
+            onClick={toggleSidebar}
+          >
             {social.icon}
           </a>
         ))}

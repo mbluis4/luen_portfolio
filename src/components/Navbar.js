@@ -13,7 +13,14 @@ const Navbar = ({ openSidebar, toggleSidebar }) => {
       md:grid md:grid-cols-2 md:items-center"
       >
         <Link to="/" className="flex justify-between">
-          <h2 className="">DevLuen</h2>
+          <h2 className="">
+            <span className="text-3xl text-primary_1 tracking-wider font-bold">
+              Dev
+            </span>
+            <span className="text-3xl text-slate-700 tracking-wider font-bold">
+              Luen
+            </span>
+          </h2>
           <button className="md:hidden" onClick={toggleSidebar}>
             <RiMenuFill />
           </button>
