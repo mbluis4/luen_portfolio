@@ -61,7 +61,7 @@ const Contact = () => {
             className="block w-11/12 mx-auto mb-5 bg-slate-100 rounded-sm placeholder:text-slate-700 text-sm placeholder:uppercase 
             placeholder:tracking-widest py-2 px-2 "
           ></textarea>
-          <button className="w-full bg-teal-500 py-3 rounded-b-md text-slate-50 uppercase tracking-widest font-semibold">
+          <button className="w-full bg-teal-500 py-3 rounded-b-md text-slate-50 uppercase tracking-widest font-semibold hover:text-slate-700">
             Submit
           </button>
         </form>
