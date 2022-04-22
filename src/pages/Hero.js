@@ -5,7 +5,7 @@ import AboutMe from "../components/AboutMe";
 
 const Hero = () => {
   return (
-    <div className="relative pt-20 h-screen bg-slate-100">
+    <div className="relative pt-20 bg-slate-100 mb-4">
       <div
         className="h-full grid items-center w-ninety 
       mt-2 mx-auto max-w-7xl"
@@ -39,7 +39,6 @@ const Hero = () => {
 
         <img src={heroImg} alt="hero svg" className="min-w-2/4"></img>
         <AboutMe />
-        <p></p>
       </div>
     </div>
   );

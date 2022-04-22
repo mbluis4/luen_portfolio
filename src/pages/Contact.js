@@ -17,7 +17,10 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact bg-slate-50 pt-20 h-screen grid place-items-center min-h-screen">
+    <div
+      className="contact bg-slate-50 pt-20
+    grid place-items-center"
+    >
       <div
         className="flex flex-col justify-center items-center 
       max-w-lg w-ninety mx-auto bg-white shadow-lg "

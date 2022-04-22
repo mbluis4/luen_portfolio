@@ -10,12 +10,12 @@ const SharedLayout = () => {
     setOpenSidebar((prev) => !prev);
   };
   return (
-    <>
+    <div className="layout">
       <Navbar openSidebar={openSidebar} toggleSidebar={toggleSidebar} />
       <Sidebar openSidebar={openSidebar} toggleSidebar={toggleSidebar} />
       <Outlet />
       <Footer />
-    </>
+    </div>
   );
 };
 

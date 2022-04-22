@@ -7,7 +7,7 @@ const Projects = () => {
   ));
   return (
     <div className="h-full pt-24 bg-slate-100">
-      <div className="h-full w-ninety max-w-7xl mx-auto mt-2 space-y-6">
+      <div className="h-full w-ninety max-w-7xl mx-auto my-4 space-y-6">
         {projects}
       </div>
     </div>
