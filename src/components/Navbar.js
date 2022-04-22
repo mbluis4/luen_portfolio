@@ -30,7 +30,11 @@ const Navbar = ({ openSidebar, toggleSidebar }) => {
         md:justify-end md:space-x-5 py-2 px-0 text-lg tracking-wide"
         >
           {links.map((link) => (
-            <Link to={link.url} key={link.id}>
+            <Link
+              to={link.url}
+              key={link.id}
+              className="hover:text-primary_1 hover:underline hover:underline-offset-4 transition-all"
+            >
               {link.text}
             </Link>
           ))}
