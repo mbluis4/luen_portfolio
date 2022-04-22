@@ -10,7 +10,7 @@ const SharedLayout = () => {
     setOpenSidebar((prev) => !prev);
   };
   return (
-    <div className="layout">
+    <div className="flex flex-col m-0 min-h-screen">
       <Navbar openSidebar={openSidebar} toggleSidebar={toggleSidebar} />
       <Sidebar openSidebar={openSidebar} toggleSidebar={toggleSidebar} />
       <Outlet />

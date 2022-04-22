@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const AboutMe = () => {
   return (
     <div className="h-full pt-20">
-      <section className="my-services text-center h-full w-ninety  max-w-4xl mx-auto">
+      <section className="my-services text-center">
         <h2
           className="text-3xl text-center font-bold tracking-wide
           pb-4 text-primary_1 pt-4"
