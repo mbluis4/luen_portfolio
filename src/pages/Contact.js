@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Navigate } from "react-router-dom";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -33,6 +32,8 @@ const Contact = () => {
           method="POST"
           className="w-full"
           data-netlify="true"
+          action="/success"
+          onSubmit="submit"
         >
           <input type="hidden" name="form-name" value="contact-form" />
           <input
