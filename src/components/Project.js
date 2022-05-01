@@ -2,7 +2,7 @@ import Image from "next/Image";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const Project = ({ project }) => {
-  const { name, description, img, tags, url, github } = project;
+  const { name, img, tags, url, github } = project;
   return (
     <div
       className="bg-slate-50 rounded-md shadow-lg 
@@ -13,7 +13,7 @@ const Project = ({ project }) => {
           <Image src={img} alt="site" />
         </span>
       </div>
-      <a href={url} target="_blank">
+      <a href={url} target="_blank" rel="noreferrer">
         <FaExternalLinkAlt className="-mt-3 text-md scale-100 hover:scale-125 transition-all" />
       </a>
       <h2 className="text-xl tracking-wide my-2">{name}</h2>
@@ -35,6 +35,7 @@ const Project = ({ project }) => {
         <a
           href={github}
           target="_blank"
+          rel="noreferrer"
           className="scale-100 hover:scale-105 transition-all"
         >
           Source code
