@@ -14,7 +14,7 @@ const Navbar = ({ openSidebar, toggleSidebar }) => {
       >
         <Link href="/">
           <div className="flex justify-between">
-            <h2 className="">
+            <h2 className=" hover:cursor-pointer">
               <span className="text-3xl text-primary_1 tracking-wider font-bold">
                 Dev
               </span>
