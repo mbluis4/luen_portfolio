@@ -1,7 +1,7 @@
 import Links from "../data/links";
 import socialLinks from "../data/socialLinks";
 import { GrClose } from "react-icons/gr";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const Sidebar = ({ openSidebar, toggleSidebar }) => {
   return (
@@ -14,14 +14,9 @@ const Sidebar = ({ openSidebar, toggleSidebar }) => {
       <GrClose className="self-end text-2xl mr-4" onClick={toggleSidebar} />
       <div className="flex flex-col items-center my-4">
         {Links.map((link) => (
-          <Link
-            to={link.url}
-            key={link.id}
-            onClick={toggleSidebar}
-            className="text-2xl mb-2"
-          >
-            {link.text}
-          </Link>
+          <span key={link.id} onClick={toggleSidebar} className="text-2xl mb-2">
+            <Link href={link.url}>{link.text}</Link>
+          </span>
         ))}
       </div>
       <div className="flex space-x-4 text-2xl">

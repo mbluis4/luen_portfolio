@@ -33,7 +33,6 @@ const Contact = () => {
           className="w-full"
           data-netlify="true"
           action="/success"
-          onSubmit="submit"
         >
           <input type="hidden" name="form-name" value="contact-form" />
           <input

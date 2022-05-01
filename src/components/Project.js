@@ -1,3 +1,4 @@
+import Image from "next/Image";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const Project = ({ project }) => {
@@ -8,11 +9,9 @@ const Project = ({ project }) => {
     mb-3 flex flex-col items-center max-w-xl mx-auto"
     >
       <div className="max-w-sm mt-2 px-4 pt-2">
-        <img
-          className="w-full object-cover rounded-md"
-          src={img}
-          alt="site"
-        ></img>
+        <span className="w-full object-cover rounded-md">
+          <Image src={img} alt="site" />
+        </span>
       </div>
       <a href={url} target="_blank">
         <FaExternalLinkAlt className="-mt-3 text-md scale-100 hover:scale-125 transition-all" />

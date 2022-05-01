@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const AboutMe = () => {
   return (
@@ -31,20 +31,22 @@ const AboutMe = () => {
                 Third party libraries like Redux, React Router, Framer Motion,
                 TailwindCSS, SASS
               </li>
-              <li>REST API integration, SPA, SSR</li>
+              <li>SSR, static web pages with Next.js</li>
+              <li>REST API integration</li>
               <li>Unit tests (Jest) and version control (GIT)</li>
             </ul>
           </div>
 
           <div className="mt-4"></div>
         </div>
-        <Link
-          className="mt-10 mb-12 inline-block bg-primary_1 py-1 px-3 uppercase 
+        <Link href="/projects">
+          <h2
+            className="mt-10 mb-12 inline-block bg-primary_1 py-1 px-3 uppercase 
            w-32 text-center shadow-md tracking-wide text-slate-700 border-2 
           border-transparent hover:cursor-pointer rounded-sm scale-100 hover:scale-110 transition-all"
-          to="/projects"
-        >
-          My Work
+          >
+            My Work
+          </h2>
         </Link>
       </section>
     </div>
