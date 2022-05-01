@@ -13,9 +13,13 @@ const Footer = () => {
           </a>
         ))}
       </div>
-      <h2 className="text-lg uppercase">
-        copyright&copy;{new Date().getFullYear()}
-        <span className="text-primary_1"> DevLuen</span> all rights reserved
+      <h2 className="text-lg">
+        Copyright&copy;{new Date().getFullYear()}
+        <span className="text-primary_1"> DevLuen</span> All rights reserved.
+        Built with{" "}
+        <a className="text-primary_1" href="https://nextjs.org/">
+          Next.js
+        </a>
       </h2>
     </footer>
   );
