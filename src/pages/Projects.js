@@ -1,7 +1,7 @@
 import Project from "../components/Project";
 import projectData from "../data/projectData";
 
-const Projects = () => {
+const projects = () => {
   const projects = projectData.map((project) => (
     <Project key={project.id} project={project} />
   ));
@@ -14,4 +14,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default projects;
