@@ -2,6 +2,7 @@ const Head = () => {
   return (
     <>
       <title>DevLuen</title>
+      <meta charset="utf-8" />
       <meta
         name="Web development Porfolio"
         content="html javascript css React Next TailwindCss"
@@ -9,6 +10,7 @@ const Head = () => {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="theme-color" content="#000000" />
       <link rel="icon" href="/favicon.ico" />
+      <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     </>
   );
 };

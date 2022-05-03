@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import heroImg from "../img/hero.svg";
 import socialLinks from "../data/socialLinks";
-import AboutMe from "../components/AboutMe";
+import AboutMe from "./AboutMe";
 
 const Hero = () => {
   return (

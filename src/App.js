@@ -1,10 +1,10 @@
 import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SharedLayout from "./components/SharedLayout";
-import Projects from "./pages/Projects";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Hero from "./pages/Hero";
+import Projects from "./pages/projects";
+import About from "./pages/about";
+import Contact from "./pages/contact";
+import Hero from "./components/Hero";
 import Success from "./pages/Success";
 
 function App() {
