@@ -14,7 +14,7 @@ const AboutMe = () => {
           <div className="mt-4">
             <h3 className="text-2xl">Design + Development</h3>
             <p className="">
-              Frontend developer shooting for the stars, devoted to web
+              Front end developer shooting for the stars, devoted to web
               development and a open mindset for implementing new ideas and
               concepts that make web designs stand out. My engineering
               background provides a strong analytical mindset to tackle any

@@ -15,7 +15,9 @@ const Hero = () => {
           <span className="font-light">Hi, I'm</span>{" "}
           <span className="font-bold">Luis Enrique</span>
         </h2>
-        <h2 className="text-2xl text-slate-700 p-0 mb-2">Frontend developer</h2>
+        <h2 className="text-2xl text-slate-700 p-0 mb-2">
+          Front end developer
+        </h2>
 
         <Link href="/contact">
           <h2
