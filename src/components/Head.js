@@ -2,7 +2,7 @@ const Head = () => {
   return (
     <>
       <title>DevLuen</title>
-      <meta charset="utf-8" />
+      <meta charSet="utf-8" />
       <meta
         name="Web development Porfolio"
         content="html javascript css React Next TailwindCss"
