@@ -1,15 +1,11 @@
-import {
-  FaGithub,
-  FaLinkedin,
-  FaTwitterSquare,
-  FaInstagram,
-} from "react-icons/fa";
+import { FaLinkedin, FaTwitterSquare, FaInstagram } from "react-icons/fa";
+import { RiGithubLine } from "react-icons/ri";
 
 const socialLinks = [
   {
     id: 1,
     url: "https://github.com/mbluis4",
-    icon: <FaGithub></FaGithub>,
+    icon: <RiGithubLine></RiGithubLine>,
   },
   {
     id: 2,
