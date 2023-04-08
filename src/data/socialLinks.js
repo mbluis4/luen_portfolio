@@ -13,7 +13,7 @@ const socialLinks = [
   },
   {
     id: 2,
-    url: "https://www.linkedin.com/in/luis-enrique-mill%C3%A1n-brito-88a14442/",
+    url: "https://www.linkedin.com/in/mbluis4/",
     icon: <FaLinkedin></FaLinkedin>,
   },
   {
